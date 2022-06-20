@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+p{
+    @apply leading-[28.8px]
+}
+h5{
+    @apply text-2xl font-medium text-white
+
+}
+h3,h4{
+    @apply text-subtitle;
+    @apply font-bold;
+}
+h2{
+    @apply text-title;
+    @apply text-3xl;
+    @apply md:text-4xl;
+    @apply lg:text-[40px];
+    @apply font-bold;
+
+}
+input{
+    @apply h-[3.5rem] rounded-md px-4 w-full
+}
+textarea{
+    @apply px-4 pt-4 rounded-md h-32 w-full
+}
+li p{
+    @apply cursor-pointer text-brand-300
+}
