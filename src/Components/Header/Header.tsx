@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../../../assets/logo01.png"
+import logo from "../../assets/logo01.png"
 import Hamburger from 'hamburger-react'
 import {Navigation} from './Navigation'
 

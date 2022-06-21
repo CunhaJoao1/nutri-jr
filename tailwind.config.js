@@ -15,7 +15,7 @@ module.exports = {
       },
       
       backgroundImage:{
-        'home-nutri': "url('assets/nutri.jpg')",
+        'home-nutri': "url('src/assets/nutri.jpg')",
         'about-food': "url('assets/food.jpg')",
         'contact-nutri': "url('assets/nutri_2.jpg')",
       },
