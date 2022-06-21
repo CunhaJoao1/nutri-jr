@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import nutri1 from "./assets/nutri.jpg"
 module.exports = {
   content: ["./src/**/*.{html,tsx}"],
   theme: {
@@ -15,7 +16,7 @@ module.exports = {
       },
       
       backgroundImage:{
-        'home-nutri': "url('assets/nutri.jpg')",
+        'home-nutri': `url(${nutri1})`,
         'about-food': "url('assets/food.jpg')",
         'contact-nutri': "url('assets/nutri_2.jpg')",
       },
