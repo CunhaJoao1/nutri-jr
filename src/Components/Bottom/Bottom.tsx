@@ -23,7 +23,7 @@ export default function Bottom() {
         </div>
 
         <div className='justify-self-center'>
-            <h5>Sobre a NutriJR</h5>
+            <h5>Nossos Serviços</h5>
                 <ul className='max-w-xs'>
                     <li> <p>Coffee-Break</p> </li>
                     <li> <p>Ficha Técnica</p> </li>
