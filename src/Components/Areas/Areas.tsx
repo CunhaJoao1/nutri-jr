@@ -16,11 +16,10 @@ export function Areas() {
         <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] max-w-[20rem] md:max-w-6xl'>
             {Object.entries(AreasObject).map(([key, item])=>{
             return (
-                <div className='pt-4 pb-12 px-3 bg-white'>
-                    <div>{item.logo}</div>
+                <div className='pt-4 pb-12 px-3 bg-white flex flex-col items-center '>
+                    <img src={item.logo} alt="" className='w-12'/>
                     <h4 className='text-xl font-normal text-black'>{item.title}</h4>
                     <p className='text-base text-para '>{item.description}</p>
-
                 </div>  
             )
             })}

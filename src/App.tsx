@@ -8,20 +8,22 @@ import './Global.css'
 import Contact from './Components/Contact/Contact'
 import Bottom from './Components/Bottom/Bottom'
 import Newslatter from './Components/Newslatter/Newslatter'
+import RoutesWay from './router'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Header/>
+      {/* <Header/>
       <Home/>
       <About/>
       <Areas/>
       <Employees/>
       <Contact/>
       <Newslatter/>
-      <Bottom/>
+      <Bottom/> */}
+      <RoutesWay/>
     </div>
   )
 }
