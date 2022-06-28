@@ -20,7 +20,7 @@ export function Navigation(props: NavigationProps) {
             <li className='flex gap-8 flex-col items-center md:flex-row'>
                 {props.links.map((link, key:number)=>{
                     const clearLink = link.toLowerCase().replace(" ", "-").replace("home", "").replace("ó","o").replace("ç","c")
-                    return <Link to={'/'+clearLink}> <p className='font-sans text-white cursor-pointer hover:text-brand-400 transition-colors' key={key}>{link}</p></Link>
+                    return <Link to={'/'+clearLink}> <p className='font-sans cursor-pointer text-brand-400 transition-colors' key={key}>{link}</p></Link>
                 })}
             </li>
         </ul>

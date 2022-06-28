@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from "../../assets/logo01.png"
 import useWindowDimensions from "../ScreenHook"
 import { MobileHeader } from './MobileHeader'
@@ -7,9 +7,13 @@ import { Navigation } from './Navigation'
 
 export function Header() {
     const { width, height } = useWindowDimensions()
+    const [isNavbarShowing, setIsNavbarShowing] = useState(0)
+    const [typeOfPosition, setTypeOfPosition] = useState("")
+
+
     
   return (
-    <header className=' bg-[#121619] w-full h-16 flex justify-between items-center px-[5%] fixed top-0 z-20'>
+    <header className={`bg-white w-full h-20 flex justify-between items-center px-[5%] fixed top-0 z-20 shadow-md`}>
         <img src={logo} alt="" className='w-16' />
         {
             width < 768? 
