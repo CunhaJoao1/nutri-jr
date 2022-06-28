@@ -1,10 +1,11 @@
 import {AiFillPlaySquare} from "react-icons/ai"
+import coffee from "../../assets/coffee.svg"
 
 export const AreasObject = {
     Coffee: {
         title:"Coffee-Break",
         description:"Coffee-breaks para eventos diversos, buscando no mercado os melhores preços de acordo com orçamento e preferências do contratante, organizando a mesa de exibição, o espaço, a limpeza e a distribuição dos lanches.",
-        logo:"teste",
+        logo: coffee,
     },
     Ficha:{
         title:"Ficha Técnica",

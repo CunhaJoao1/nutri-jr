@@ -1,5 +1,11 @@
 import React from 'react'
 import nutri from "../../../assets/nutri.jpg"
+import { About } from '../About/About'
+import { Areas } from '../Areas/Areas'
+import Bottom from '../Bottom/Bottom'
+import Contact from '../Contact/Contact'
+import Employees from '../Employees/Employees'
+import Newslatter from '../Newslatter/Newslatter'
 
 export function Home() {
   return (
@@ -11,6 +17,13 @@ export function Home() {
           Nutrição, Justiça e Resiliência
           </h1>
       </div>
+      <About/>
+      <Areas/>
+      <Employees/>
+      <Contact/>
+      <Newslatter/>
+      <Bottom/>
     </div>
   )
 }
+
