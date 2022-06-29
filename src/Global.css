@@ -22,10 +22,10 @@ h2{
 
 }
 input{
-    @apply h-[3.5rem] rounded-md px-4 w-full
+    @apply h-[3.5rem] rounded-md px-4 w-full text-black
 }
 textarea{
-    @apply px-4 pt-4 rounded-md h-32 w-full
+    @apply px-4 pt-4 rounded-md h-32 w-full text-black
 }
 li p{
     @apply cursor-pointer text-brand-300
