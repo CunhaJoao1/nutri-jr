@@ -17,6 +17,7 @@ export default function Bottom() {
             <p className='max-w-xs text-white mt-5'>Somo uma associação sem fins lucrativos, constituídas geridas por alunos de graduação da universidade federal do Piauí.</p>
             <div className='flex gap-2 text-brand-100'>
                 <button type='button' className='w-16 h-16 rounded-full flex items-center justify-center bg-gray-600'  onClick={()=>{window.open("https://www.instagram.com/nutrijr.ufpi/?hl=pt-br", "_blank")}}><BsInstagram size={'1.5em'}/></button>
+                
                 <button type='button' className='w-16 h-16 rounded-full flex items-center justify-center bg-gray-600'><BsYoutube size={'1.5em'}/></button>
                 <button type='button' className='w-16 h-16 rounded-full flex items-center justify-center bg-gray-600'><BsLinkedin size={'1.5em'}/></button>
             </div>
