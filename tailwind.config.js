@@ -57,5 +57,7 @@ module.exports = {
       }
     },
   },
-  plugins: [Myclass],
+  plugins: [Myclass,
+    require('tailwindcss-textshadow')
+  ],
 }
