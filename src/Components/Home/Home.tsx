@@ -6,6 +6,7 @@ import Bottom from '../Bottom/Bottom'
 import Contact from '../Contact/Contact'
 import Employees from '../Employees/Employees'
 import Newslatter from '../Newslatter/Newslatter'
+import Youtube from '../Youtube/Youtube'
 
 export function Home() {
   return (
@@ -21,6 +22,7 @@ export function Home() {
       <Areas/>
       <Employees/>
       <Contact/>
+      <Youtube/>
       <Newslatter/>
       <Bottom/>
     </div>
